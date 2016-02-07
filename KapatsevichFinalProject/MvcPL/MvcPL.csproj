@@ -310,6 +310,8 @@
     <Content Include="Views\Account\StartPage.cshtml" />
     <Content Include="Views\Home\ShowUserGrades.cshtml" />
     <Content Include="Views\Book\ShowBookGrades.cshtml" />
+    <Content Include="Views\Message\ShowUserMessages.cshtml" />
+    <Content Include="Views\Message\AdminDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-2.2.0.min.map" />

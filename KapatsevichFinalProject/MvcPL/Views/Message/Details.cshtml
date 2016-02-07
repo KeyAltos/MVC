@@ -49,7 +49,7 @@
                     <td class="col30percTable" id="tableTdCentr"> 
                         @if (item.SenderId == ViewBag.CurrentUserId)
                     {
-                            @Html.ActionLink("Correct message", "CorrectMessag", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
+                            @Html.ActionLink("Edit message", "CorrectMessage", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
                             @Html.ActionLink("Delete message", "DeleteMessage", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })                            
                         }
                     </td>

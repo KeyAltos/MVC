@@ -150,6 +150,9 @@
                         <li>
                             @Html.ActionLink("Back to User administration", "Index")
                         </li>
+                        <li>
+                            @Html.ActionLink("Show user messages", "ShowUserMessages", "Message", new { Id = Model.Id }, null)
+                        </li>
                     }
                 </ul>
 

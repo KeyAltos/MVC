@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MvcPL.Models.UIMessage>
+
+    @if (Model.FirstOrDefault() != null)
+    {
+        <div class="row table-responsive">
+            <table class="table">
+                <tr>       
+                        <th class="col30percTable">
+                            @Html.ActionLink(Model.FirstOrDefault().Receiver.FirstName + " " + Model.FirstOrDefault().Receiver.LastName, "Details", "Home", new { id = Model.FirstOrDefault().Receiver.Id }, null)
+                        </th>
+                        <th class="col30percTable">
+                            @Html.ActionLink(Model.FirstOrDefault().Sender.FirstName + " " + Model.FirstOrDefault().Sender.LastName, "Details", "Home", new { id = Model.FirstOrDefault().Sender.Id }, null)
+                        </th>                        
+                        <th class="col10percTable"></th>
+                        <th class="col30percTable"></th>
+                    
+                </tr>
+
+                @foreach (var item in Model)
+                {                    
+                    <tr>
+                        <td class="messageFromMe col30percTable">
+                            @if (Model.FirstOrDefault().SenderId== item.ReceiverId)
+                            {
+                                @Html.DisplayFor(modelItem => item.MessageText)
+                            }
+                        </td>
+
+                        <td class="messageToMe col30percTable">
+                            @if (Model.FirstOrDefault().ReceiverId == item.ReceiverId)
+                            {
+                                @Html.DisplayFor(modelItem => item.MessageText)
+                            }
+                        </td>
+
+                        <td class="col10percTable glyphicon-time timeForMessages" id="tableTdCentr">
+                            @Html.DisplayFor(modelItem => item.MessageSendingTime)
+                        </td>
+                        <td class="col30percTable" id="tableTdCentr">                            
+                                @Html.ActionLink("Edit message", "CorrectMessage", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
+                                @Html.ActionLink("Delete message", "DeleteMessage", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })                            
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+}
+else
+{
+    <div>You have no conversation with this user yet</div>
+}
+ 
+
+

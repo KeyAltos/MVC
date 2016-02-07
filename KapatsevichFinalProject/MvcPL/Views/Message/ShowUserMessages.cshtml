@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MvcPL.Models.UIMessage>
+
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+        <table class="table table-striped" id="AuthorTable">
+            <tr>
+                <th class="col30percTable">
+                    Message from
+                </th>
+                <th class="col30percTable">
+                    Message to
+                </th>
+                <th class="col30percTable">
+                    @Html.DisplayNameFor(model => model.MessageText)
+                </th>
+                <th class="col10percTable">
+                    @Html.DisplayNameFor(model => model.MessageSendingTime)
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>                     
+                     <td class="col30percTable">
+                         @Html.ActionLink(item.Sender.FirstName + " " + item.Sender.LastName, "Details", "Home", new { id = item.Sender.Id }, null)
+                     </td>
+                     <td class="col30percTable">
+                         @Html.ActionLink(item.Receiver.FirstName + " " + item.Receiver.LastName, "Details", "Home", new { id = item.Receiver.Id }, null)
+                     </td>
+                     <td class="col30percTable" id="tableTdCentr">
+                         @Html.ActionLink(item.MessageText, "AdminDetails", new { id = item.Id })
+                     </td>
+                     <td class="col10percTable glyphicon-time timeForMessages" id="tableTdCentr">
+                         @Html.DisplayFor(modelItem => item.MessageSendingTime)
+                     </td>
+                    
+                </tr>
+            }
+
+        </table>
+    </div>
+
+
+

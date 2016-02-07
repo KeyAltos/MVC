@@ -37,6 +37,25 @@ namespace MvcPL.Controllers
             return View(view);
         }
 
+        [Authorize(Roles = "Admin")]
+        public ActionResult ShowUserMessages(int Id)
+        {            
+            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserLastMessages(Id));
+            ViewBag.CurrentUserId = userService.GetIdByUsername(User.Identity.Name); ;
+
+            return View(view);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public ActionResult AdminDetails(int Id)
+        {
+            var message=messageService.GetByIdMessage(Id);       
+            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserToUserMessages(message.SenderId, message.ReceiverId));            
+            return View(view);
+        }
+        
+
         [HttpGet]
         public ActionResult SendMessage(int Id)
         {
@@ -52,7 +71,6 @@ namespace MvcPL.Controllers
             var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserToUserMessages(myId, Id));
             ViewBag.CurrentUserId = myId;
             ViewBag.OtherUserId = Id;
-
             return View(view);
         }
 

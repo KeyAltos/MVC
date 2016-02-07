@@ -34,6 +34,7 @@ else
 	                    {
 		                    @Html.ActionLink("Edit user", "Edit", "Home", new { Id = item.Id }, new { @class = "btn btn-default" })
                             @Html.ActionLink("Delete user", "Delete", "Home", new { Id = item.Id }, new { @class = "btn btn-default" })
+                            @Html.ActionLink("Show user messages", "ShowUserMessages", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
                         }
                         
                         @if (item.Id != ViewBag.CurrentUserId)

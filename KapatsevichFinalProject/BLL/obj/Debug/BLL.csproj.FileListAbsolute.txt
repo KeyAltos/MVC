@@ -1,0 +1,247 @@
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepasitoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\BLL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.84 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL\obj\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.pdb

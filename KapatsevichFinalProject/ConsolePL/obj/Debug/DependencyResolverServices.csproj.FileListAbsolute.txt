@@ -1,0 +1,3 @@
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ConsolePL\obj\Debug\DependencyResolverServices.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ConsolePL\obj\Debug\ConsoleApplication1.pdb

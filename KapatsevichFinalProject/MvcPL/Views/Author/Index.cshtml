@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MvcPL.Models.AuthorIndexModel>
+
+    <div class="paddingTop10">
+        @Html.ActionLink("Create new Author", "Create", "Author", null, new { @class = "btn btn-primary", @type = "button" })
+    </div>  
+    
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+        <table class="table table-striped" id="AuthorTable">
+            <caption>All authors</caption>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FullName)
+                </th>                
+                <th>
+                    @Html.DisplayNameFor(model => model.BirthDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DeathDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LocationCoutry)
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(item.FullName, "Details", new { Id = item.Id })                        
+                    </td>                    
+                    <td id="tableTdCentr">
+                        @Html.DisplayFor(modelItem => item.BirthDate)
+                    </td>
+                    <td id="tableTdCentr">
+                        @Html.DisplayFor(modelItem => item.DeathDate)
+                    </td>
+                    <td id="tableTdCentr">
+                        @Html.DisplayFor(modelItem => item.LocationCoutry)
+                    </td>
+                    <td id="tableTdCentr">
+                        @Html.ActionLink("Edit", "Edit","Author", new { Id = item.Id }, new { @class = "btn btn-default" })                          
+                        @Html.ActionLink("Delete", "Delete", "Author", new { Id = item.Id }, new { @class = "btn btn-default" })
+                    </td>
+                </tr>
+            }
+        </table>
+  </div>
+
+        @Html.ActionLink("Back to MyProfile", "StartPage", "Account")
+

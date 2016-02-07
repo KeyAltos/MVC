@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MvcPL.Models.UIMessage>
+
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+        <table class="table table-striped" id="AuthorTable">
+            <tr>
+                <th>
+                    Message from
+                </th>
+                <th class="col60percTable">
+                    @Html.DisplayNameFor(model => model.MessageText)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MessageSendingTime) 
+                </th>                
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    @{
+                        MvcPL.Models.UIUser userForInfo = null;
+                        if (item.SenderId == ViewBag.CurrentUserId)
+                        {
+                            userForInfo = item.Receiver;
+                        }
+                        else
+                        {
+                            userForInfo = item.Sender;
+                        }
+
+                        <td>
+                            @Html.ActionLink(userForInfo.FirstName + " " + userForInfo.LastName, "Details", "Home", new { id = userForInfo.Id }, null)
+                        </td>
+                        <td class="col60percTable" id="tableTdCentr">
+                            @Html.ActionLink(item.MessageText, "Details", new { id = userForInfo.Id })
+                        </td>
+                        <td class="col10percTable glyphicon-time timeForMessages" id="tableTdCentr">
+                            @Html.DisplayFor(modelItem => item.MessageSendingTime)
+                        </td>
+                    }
+                </tr>
+                        }
+
+        </table>
+ </div>
+

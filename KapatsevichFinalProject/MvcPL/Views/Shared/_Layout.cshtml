@@ -1,0 +1,80 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklover.com</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr") 
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Booklover.com", "StartPage", "Account", null, new { @class = "navbar-brand" })                
+                @*@Html.ActionLink(
+                    " ",
+                    "StartPage",
+                    "Account",
+                    null,
+                    new
+                    {
+                        @class = "pull-left",
+                    })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("My Profile", "StartPage", "Account")</li>
+                    <li>@Html.ActionLink("My Friends", "Index", "Friendship")</li>
+                    <li>@Html.ActionLink("My Books", "ShowMyGrades", "Home")</li>
+                    <li>@Html.ActionLink("My Messages", "Index", "Message")</li>
+                </ul>
+               @if (User.Identity.IsAuthenticated)
+               {
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink(User.Identity.Name, "StartPage", "Account")</li>
+                    <li>@Html.ActionLink("Logoff", "Logoff", "Account", null, new { @class = "navbar-right" })</li>
+                </ul>
+               }
+               else
+               {
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
+                </ul>
+               }
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()        
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year – Booklover.com</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/scripts/jquery-2.2.0.js")
+    @Scripts.Render("~/scripts/bootstrap")
+    @Scripts.Render("~/scripts/jquery-ui-1.11.4.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    
+    @Scripts.Render("~/scripts/jquery.validate.js")
+    @Scripts.Render("~/scripts/jquery.validate.unobtrusive.js")
+
+    @RenderSection("scripts", required: false)
+
+    
+</body>
+</html>

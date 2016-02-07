@@ -1,0 +1,160 @@
+﻿@model MvcPL.Models.UserDetailsModel
+
+    
+    @if (ViewBag.ListAdminId.Contains(ViewBag.CurrentUserId))
+    {
+        <fieldset>
+            <legend>Network management</legend>
+            <ul class="nav nav-tabs nav-justified">
+                <li>@Html.ActionLink("User administration", "Index", "Home")</li>
+                <li>@Html.ActionLink("Author administration", "Index", "Author")</li>
+                <li>@Html.ActionLink("Book administration", "Index", "Book")</li>
+                <li>@Html.ActionLink("Genre administration", "Index", "Genre")</li>
+            </ul>
+        </fieldset>
+    }
+            <fieldset>
+                <legend>@Model.Name</legend>
+                @if (Model.Id != ViewBag.CurrentUserId)
+                {
+                    <p>
+                        @Html.ActionLink("Send Message", "Details", "Message", new { Id = Model.Id }, new { @class = "btn btn-primary", @type = "button" })
+                    </p>
+                }
+                <div class="col-xs-12 col-sm-6 col-lg-8">
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.Name)
+                    </div>
+                    <div class="display-field">
+                        @Html.DisplayFor(model => model.Name)
+                    </div>
+
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.BirthDate)
+                    </div>
+                    <div class="display-field">
+                        @Html.DisplayFor(model => model.BirthDate)
+                    </div>
+
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.Description)
+                    </div>
+                    <div class="display-field">
+                        @Html.DisplayFor(model => model.Description)
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.LocationCoutry)
+                    </div>
+                    <div class="display-field">
+                        @Html.DisplayFor(model => model.LocationCoutry)
+                    </div>
+
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.LocationCity)
+                    </div>
+                    <div class="display-field">
+                        @Html.DisplayFor(model => model.LocationCity)
+                    </div>
+                </div>   
+                             
+                <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive" id="GradeTable">
+                    <table class="table table-striped" id="GradeTable">
+                        <caption>The last 3 user books</caption>
+                        <tr>
+                            <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">The title of a book </th>                            
+                            <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">Author </th>
+                            <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">About book  </th>
+                            <th class="col-lg-1 col-xs-1 col-sm-1 col-md-1">Grade </th>
+                            <th class="col-lg-3 col-xs-3 col-sm-3 col-md-3">Comment </th>
+                            <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">Action</th>
+                        </tr>
+
+                        @if (Model.Grades.Count() == 0)
+                        {
+                            <tr>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                    User have no added books yet
+                                </td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1"></td>
+                                <td class="col-lg-3 col-xs-3 col-sm-3 col-md-3"></td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>                                   
+                            </tr>   
+                        }
+                                @foreach (var item in Model.Grades)
+                                {
+                            <tr>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">                                    
+                                    @Html.ActionLink(item.Book.Name, "Details", "Book", new { Id = item.Book.Id },null)
+                                </td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                                    @Html.ActionLink(item.Book.Author.FirstName + " " + item.Book.Author.LastName, "Details", "Author", new { Id = item.Book.Author.Id },null)
+                                </td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                    @if (item.IsBookHadRead)
+                                    {
+                                        <p>Already read</p>
+                                    }
+                                    else
+                                    {
+                                        <p>Want to read</p>
+                                    }
+                                </td>
+                                <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1" id="tableTdCentr">
+                                    @if (item.IsBookHadRead)
+                                    {
+                                        @Html.DisplayFor(modelItem => item.GradeValue);
+                                    }
+                                </td>
+                                <td class="col-lg-3 col-xs-3 col-sm-3 col-md-3">
+                                    @if (item.IsBookHadRead)
+                                    {
+                                        @Html.DisplayFor(modelItem => item.Comment);
+                                    }
+                                </td>
+                                <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"  id="tableTdCentr">
+                                    @if (!ViewBag.CurrentUserBooksId.Contains(item.BookId))
+                                    {
+                                        @Html.ActionLink("Add to MyBooks", "AddBookToUser","Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                    }
+                                    @if (ViewBag.CurrentUserId == item.AppreiserId)
+                                    {
+                                        @Html.ActionLink("Delete", "DeleteBookFromUser","Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                        @Html.ActionLink("Edit", "EditGrade","Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                    }
+                                </td>
+                            </tr>
+                        }                        
+                    </table>                    
+                </div>
+                
+                
+                <ul class="nav navbar-nav myProfileFooterNav" >
+                    @if (Model.Grades.Count() != 0)
+                    {
+                        <li>@Html.ActionLink("Show all users grades", "ShowUserGrades", new { id = Model.Id })</li>
+                    }                    
+                    @if (Model.Id == ViewBag.CurrentUserId || ViewBag.ListAdminId.Contains(ViewBag.CurrentUserId))
+                    {
+
+                        <li>
+                            @Html.ActionLink("Edit MyProfile", "Edit", new { id = Model.Id })
+                        </li>
+                    }
+                    @if (ViewBag.ListAdminId.Contains(ViewBag.CurrentUserId))
+                    {
+
+                        <li>
+                            @Html.ActionLink("Back to User administration", "Index")
+                        </li>
+                    }
+                </ul>
+
+</fieldset>
+
+            
+
+

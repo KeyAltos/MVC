@@ -1,0 +1,66 @@
+﻿@model IEnumerable<MvcPL.Models.UIGrade>
+
+@if (Model.FirstOrDefault() != null)
+{
+    <h2>@Model.FirstOrDefault().Book.Name</h2>
+}
+else
+{
+    <p>This book have no reviews yet</p>
+}
+@Html.ActionLink(@Model.FirstOrDefault().Book.Author.FirstName+ " "+@Model.FirstOrDefault().Book.Author.LastName, "Details", "Author",new {Id=@Model.FirstOrDefault().Book.Author.Id},null)
+
+                      <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+                          <table class="table table-striped">
+                              <caption>Users who have recently added this book</caption>
+                              <tr>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">User </th>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">About book</th>
+                                  <th class="col-lg-1 col-xs-1 col-sm-1 col-md-1">Grade</th>
+                                  <th class="col-lg-7 col-xs-7 col-sm-7 col-md-7">Comment</th>
+                              </tr>
+
+                              @if (Enumerable.Count(Model) == 0)
+                              {
+                                  <tr>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                      <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1"></td>
+                                      <td class="col-lg-7 col-xs-7 col-sm-7 col-md-7">Book have no grades from any user yet</td>
+                                  </tr>
+                              }
+                              @foreach (var item in Model)
+                              {
+                                  <tr>
+
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                                          @{ string appreiserName = item.Appreiser.FirstName;
+                                              @Html.ActionLink(appreiserName, "Details", "Home", new { Id = item.AppreiserId }, null)
+                                          }
+                                      </td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              <p>Read</p>
+                                          }
+                                          else
+                                          {
+                                              <p>Want to read</p>
+                                          }
+                                      </td>
+                                      <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1" id="tableTdCentr">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              @item.GradeValue;
+                                          }
+                                      </td>
+                                      <td class="col-lg-7 col-xs-7 col-sm-7 col-md-7">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              @item.Comment;
+                                          }
+                                      </td>
+                                  </tr>
+                                              }
+                          </table>
+                      </div>

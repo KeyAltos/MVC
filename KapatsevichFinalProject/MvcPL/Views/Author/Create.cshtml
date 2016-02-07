@@ -1,0 +1,91 @@
+﻿@model MvcPL.Models.AuthorCreateModel
+
+
+    
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    
+        <fieldset>            
+            @if (Model.IsCreatingNow == true)
+            {
+                <legend>Creating ne author</legend>
+            }
+            else
+            {
+                <legend>Updating @Model.FirstName @Model.LastName</legend>
+            }
+
+            
+             @Html.HiddenFor(model => model.Id)
+            
+            <div class="form-group">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.FirstName)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.FirstName)
+                    @Html.ValidationMessageFor(model => model.FirstName)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.LastName)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.LastName)
+                    @Html.ValidationMessageFor(model => model.LastName)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.LocationCoutry)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.LocationCoutry)
+                    @Html.ValidationMessageFor(model => model.LocationCoutry)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.BirthDate)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.BirthDate)
+                    @Html.ValidationMessageFor(model => model.BirthDate)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.DeathDate)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.DeathDate)
+                    @Html.ValidationMessageFor(model => model.DeathDate)
+                </div>
+            </div>
+
+            
+                <div class="form-group">
+
+                    @if (Model.IsCreatingNow == true)
+                    {
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    }
+                    else
+                    {
+                        <input type="submit" value="Update" class="btn btn-default" />
+                    }
+                </div>
+
+</fieldset>
+    }
+
+    <div>
+        @Html.ActionLink("Back to Author administation", "Index")
+    </div>
+

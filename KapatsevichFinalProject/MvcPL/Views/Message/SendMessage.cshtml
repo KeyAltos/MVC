@@ -1,0 +1,28 @@
+﻿@model MvcPL.Models.UIMessage
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <fieldset>
+        <legend>Send your message</legend>
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.SenderId)
+        @Html.HiddenFor(model => model.ReceiverId)
+        @Html.HiddenFor(model => model.MessageSendingTime)
+        
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MessageText)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MessageText)
+                @Html.ValidationMessageFor(model => model.MessageText)
+            </div>
+        </div>
+
+            <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-default" />
+            </div>
+</fieldset>
+}

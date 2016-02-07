@@ -1,0 +1,72 @@
+﻿@model MvcPL.Models.UIAuthor
+
+
+    <fieldset>
+        <legend>@Model.FirstName @Model.LastName</legend>
+        <div class="col-xs-12 col-sm-6 col-lg-8">
+            <div class="label-primary">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.FirstName)
+            </div>
+
+            <div class="label-primary">
+                @Html.DisplayNameFor(model => model.LastName)
+            </div>
+            <h2 class="display-field">
+                @Html.DisplayFor(model => model.LastName)
+            </h2>
+
+            <div class="label-primary">
+                @Html.DisplayNameFor(model => model.LocationCoutry)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.LocationCoutry)
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="label-primary">
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.BirthDate)
+            </div>
+
+            <div class="label-primary">
+                @Html.DisplayNameFor(model => model.DeathDate)
+            </div>
+            <div class="display-field">
+                @Html.DisplayFor(model => model.DeathDate)
+            </div>
+        </div>
+
+            <table class="table table-striped">
+                <caption>Author books</caption>
+                @foreach (var item in Model.Books)
+            {
+                    <tr>
+                        <td>
+                            @Html.ActionLink(item.Name, "Details","Book", new { id = item.Id },null)                            
+                        </td>
+                    </tr>
+                }
+            </table>
+
+        <ul class="nav navbar-nav row">
+
+            @if (ViewBag.ListAdminId.Contains(ViewBag.CurrentUserId))
+            {
+                <li>
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+                </li>
+                <li>
+                    @Html.ActionLink("Back to Author administration", "Index")
+                </li>
+            }
+        </ul>
+</fieldset>  
+
+
+

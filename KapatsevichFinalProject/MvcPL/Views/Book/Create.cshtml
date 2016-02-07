@@ -1,0 +1,95 @@
+﻿@using MvcPL.Models
+
+@model BookCreateModel
+
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    
+
+</head>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <fieldset>
+
+        
+        @if (Model.IsCreatingNow == true)
+        {
+            <legend>Creating new book</legend>
+        }
+        else
+        {
+            <legend>Updating @Model.Name</legend>
+        }
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Name)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Name)
+                @Html.ValidationMessageFor(model => model.Name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                Author
+            </div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.AuthorId,
+           new SelectList(Model.ListOfAuthors, "Id", "FullName", Model.AuthorId))
+            </div>
+       </div>
+
+        <div class="form-group displayBlock">
+            <div class="editor-label">
+                Genres
+            </div>
+            <div>
+                @foreach (UIGenre genre in ViewBag.ListOfGenres)
+                {
+                    <label class="col-lg-2 col-xs-6 col-sm-4 col-md-3 ">
+                        @if (Model.Genres == null)
+                        {
+                            var checkBoxId = "id" + genre.Id;
+                            <input type="checkbox" id=@checkBoxId name="selectedGenres" class="css-checkbox" value="@genre.Id"
+                                   @("")/>
+                            <label for=@checkBoxId class="css-label">@genre.Name</label>
+                        }
+                        else
+                        {
+                            var checkBoxId = "id" + genre.Id;
+                            <input type="checkbox" id=@checkBoxId name="selectedGenres" class="css-checkbox" value="@genre.Id"
+                                   @(Model.Genres.Select(x => x.Id).Contains(genre.Id) ? "checked=\"checked\"" : "")/>
+                            <label for=@checkBoxId class="css-label">@genre.Name</label> <br>
+                        }
+                    </label>
+                }
+            </div>
+       </div>
+        
+        <div class="form-group displayBlock">
+
+            @if (Model.IsCreatingNow == true)
+            {
+                <input type="submit" value="Create" class="btn btn-default" />
+            }
+            else
+            {
+                <input type="submit" value="Update" class="btn btn-default " />
+            }
+        </div>
+
+</fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to Book administation", "Index")
+</div>
+

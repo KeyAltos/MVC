@@ -1,0 +1,88 @@
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.53 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache

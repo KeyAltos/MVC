@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MvcPL.Models.UIFriendship>
+
+    <div class="paddingTop10">
+        @Html.ActionLink("My Friendship Requests", "MyFriendshipRequests", "Friendship", null, new { @class = "btn btn-primary", @type = "button" })
+        @Html.ActionLink("Find friends", "UserSearchIndex", "Home", null, new { @class = "btn btn-primary", @type = "button" })
+    </div>
+
+    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+        <table class="table table-striped" id="FriendshipTable">
+            <caption>My friends</caption>
+            <tr>
+                <th>
+                    Full name
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FriendOne.LocationCoutry)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FriendOne.LocationCity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FriendOne.BirthDate)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    @{
+                        MvcPL.Models.UIUser friend = null;
+                        if (item.FriendOneId == ViewBag.CurrentUserId)
+                        {
+                            friend = item.FriendTwo;
+                        }
+                        else
+                        {
+                            friend = item.FriendOne;
+                        }
+                        <td>
+                            @Html.ActionLink(friend.FirstName + " " + friend.LastName, "Details", "Home", new { id = friend.Id }, null)
+                        </td>
+                        <td id="tableTdCentr">
+                            @friend.LocationCoutry
+                        </td>
+                        <td id="tableTdCentr">
+                            @friend.LocationCity
+                        </td>
+                        <td id="tableTdCentr">
+                            @Html.DisplayFor(m => friend.BirthDate, "ShortDateTime")
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete from MyFriends", "Delete","Friendship", new { Id = item.Id }, new { @class = "btn btn-default" })                            
+                            @Html.ActionLink("Send Message", "Details", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
+                        </td>
+                    }
+                </tr>
+                        }
+
+        </table>
+    </div>
+

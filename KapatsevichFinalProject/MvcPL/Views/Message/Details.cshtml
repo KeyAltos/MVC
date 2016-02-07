@@ -1,0 +1,71 @@
+﻿@model IEnumerable<MvcPL.Models.UIMessage>
+
+
+    <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
+        @Html.Partial("SendMessage", new MvcPL.Models.UIMessage() { ReceiverId = ViewBag.OtherUserId, SenderId = ViewBag.CurrentUserId })        
+    </div>
+
+    @if (Model.FirstOrDefault() != null)
+    {
+        <div class="col-lg-8 col-xs-12 col-sm-6 col-md-8 table-responsive">
+        <table class="table">
+            <tr>
+                @{
+                    MvcPL.Models.UIUser otherUser = null;
+                    if (Model.FirstOrDefault().SenderId == ViewBag.CurrentUserId)
+                    {
+                        otherUser = Model.FirstOrDefault().Receiver;
+                    }
+                    else
+                    {
+                        otherUser = Model.FirstOrDefault().Sender;
+                    }
+                    <th class="col60percTable">
+                        @Html.ActionLink(otherUser.FirstName + " " + otherUser.LastName, "Details", "Home", new { id = otherUser.Id }, null)
+                    </th>
+                    <th class="col10percTable"></th>
+                    <th class="col30percTable"></th>
+                }
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                string classForTd = "";
+                if (item.SenderId == ViewBag.CurrentUserId)
+                {
+                    classForTd = "messageFromMe";
+                }
+                else
+                {
+                    classForTd = "messageToMe";
+                }
+                <tr>                    
+                    <td class=@classForTd >
+                        @Html.DisplayFor(modelItem => item.MessageText)
+                    </td> 
+                    <td class="col10percTable glyphicon-time timeForMessages" id="tableTdCentr">
+                        @Html.DisplayFor(modelItem => item.MessageSendingTime)
+                    </td>
+                    <td class="col30percTable" id="tableTdCentr"> 
+                        @if (item.SenderId == ViewBag.CurrentUserId)
+                    {
+                            @Html.ActionLink("Correct message", "CorrectMessag", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })
+                            @Html.ActionLink("Delete message", "DeleteMessage", "Message", new { Id = item.Id }, new { @class = "btn btn-default" })                            
+                        }
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+  }
+  else
+  {
+          <div>You have no conversation with this user yet</div>
+  }
+
+    <div class="myProfileFooterNav">
+        @Html.ActionLink("Back to MyMessages", "Index")
+    </div>
+
+

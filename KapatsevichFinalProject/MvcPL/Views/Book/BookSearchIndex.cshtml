@@ -1,0 +1,21 @@
+﻿
+<div class="paddingTop20">
+    @using (Ajax.BeginForm("BookSearchPartial", new AjaxOptions
+    {
+        UpdateTargetId = "results",
+        LoadingElementId = "loading",
+        LoadingElementDuration = 1000
+    }))
+    {
+        <input type="text" name="title" placeholder="Enter title of book"/>
+        <input type="text" name="authorFirstName" placeholder="Enter author firstname" />
+        <input type="text" name="authorLastName" placeholder="Enter author lastname"/>
+        <input type="submit" value="Search" />
+    }
+    <div id="loading" style="display:none; color:darkgrey; font-weight:bold;">
+        <p>Searching</p>
+    </div>
+    <hr />
+    <div id="results" class="paddingTop"></div>
+</div>
+

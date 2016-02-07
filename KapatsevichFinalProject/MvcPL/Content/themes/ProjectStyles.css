@@ -1,0 +1,124 @@
+﻿@import "bootstrap.css";
+
+#GradeTable {  
+    
+/*border-bottom: 1px solid #dddddd;*/  
+}
+
+#GradeTable th{
+    text-align:center;
+}
+
+#tableTdCentr{
+    text-align:center;
+}
+
+
+body {
+    background-image: url(../images/backgroundmedium.jpg); 
+    background-size: cover;
+}
+
+
+.body-content{
+    background-color: ghostwhite;
+    opacity: 0.8;    
+}
+
+.vertical-align{
+  display: inline-block;
+  vertical-align: 100%;
+}
+.label-primary{
+    font-weight:700;
+}
+
+.paddingTop10{
+    padding-top:10px;
+}
+
+.paddingTop20{
+    padding-top:20px;
+}
+
+.editor-label{
+    font-weight:700;
+}
+
+.displayBlock{
+  overflow: hidden;
+  display:block;
+}
+
+input[type=checkbox].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:24px;
+	height:17px; 
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:17px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -17px;
+}
+label.css-label {
+background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_6de93f3dd0a8cd78b0f2526c1bc6e0f7.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.table th{
+    text-align:center;
+}
+
+.myProfileFooterNav{
+    display:inline-block;
+}
+
+.messageFromMe{
+    text-align:left;
+    background-color:#CEE3F6;
+    width:60%;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.messageToMe{
+    text-align:right;
+    width:60%;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    
+}
+
+.col60percTable{
+    width:60%;
+}
+.col10percTable{
+    width:10%;
+}
+.col30percTable{
+    width:30%;
+}
+
+.timeForMessages{
+    font-size: 0.8em;
+    color:#dddddd;
+}
+
+#hiddenId{
+    display:none;
+}

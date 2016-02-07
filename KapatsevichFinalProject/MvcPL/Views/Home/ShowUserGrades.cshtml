@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MvcPL.Models.UIGrade>
+
+   <div class="paddingTop10">
+        @Html.ActionLink("Find books", "BookSearchIndex", "Book", null, new { @class = "btn btn-primary", @type = "button" })
+   </div>
+
+
+@if (Model.FirstOrDefault() != null)
+{
+<h2>All books of @Model.FirstOrDefault().Appreiser.FirstName @Model.FirstOrDefault().Appreiser.LastName</h2>
+
+
+<div>   
+      @Html.ActionLink(Model.FirstOrDefault().Appreiser.FirstName + " " + Model.FirstOrDefault().Appreiser.LastName, "Details", new { id = Model.FirstOrDefault().AppreiserId })
+</div>
+}
+                      <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive" id="GradeTable">
+                          <table class="table table-striped" id="GradeTable">
+                              <caption>All user books</caption>
+                              <tr>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">The title of a book </th>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">Author </th>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">About book  </th>
+                                  <th class="col-lg-1 col-xs-1 col-sm-1 col-md-1">Grade </th>
+                                  <th class="col-lg-3 col-xs-3 col-sm-3 col-md-3">Comment </th>
+                                  <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">Action</th>
+                              </tr>
+
+                              @if (Model.Count() == 0)
+                              {
+                                  <tr>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                          User have no added books yet
+                                      </td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                      <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1"></td>
+                                      <td class="col-lg-3 col-xs-3 col-sm-3 col-md-3"></td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                                  </tr>
+                              }
+                              @foreach (var item in Model)
+                              {
+                                  <tr>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                                          @Html.ActionLink(item.Book.Name, "Details", "Book", new { Id = item.Book.Id }, null)
+                                      </td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                                          @Html.ActionLink(item.Book.Author.FirstName + " " + item.Book.Author.LastName, "Details", "Author", new { Id = item.Book.Author.Id }, null)
+                                      </td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              <p>Already read</p>
+                                          }
+                                          else
+                                          {
+                                              <p>Want to read</p>
+                                          }
+                                      </td>
+                                      <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1" id="tableTdCentr">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              @Html.DisplayFor(modelItem => item.GradeValue);
+                                          }
+                                      </td>
+                                      <td class="col-lg-3 col-xs-3 col-sm-3 col-md-3">
+                                          @if (item.IsBookHadRead)
+                                          {
+                                              @Html.DisplayFor(modelItem => item.Comment);
+                                          }
+                                      </td>
+                                      <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                                          @if (!ViewBag.CurrentUserBooksId.Contains(item.BookId))
+                                          {
+                                              @Html.ActionLink("Add to MyBooks", "AddBookToUser", "Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                          }
+                                          @if (ViewBag.CurrentUserId == item.AppreiserId)
+                                          {
+                                              @Html.ActionLink("Delete", "DeleteBookFromUser", "Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                              @Html.ActionLink("Edit", "EditGrade", "Home", new { id = item.Id }, new { @class = "btn btn-default" })
+                                          }
+                                      </td>
+                                  </tr>
+                              }
+                          </table>
+                      </div>

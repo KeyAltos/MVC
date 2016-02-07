@@ -1,0 +1,88 @@
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.55 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.62 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.68 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\DAL.Interfacies\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\DAL.Interfacies\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\DAL.Interfacies\obj\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\DAL.Interfacies\obj\Debug\DAL.Interfacies.pdb

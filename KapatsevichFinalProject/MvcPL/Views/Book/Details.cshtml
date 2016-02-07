@@ -1,0 +1,125 @@
+﻿@model MvcPL.Models.UIBook
+
+    <fieldset>
+    <legend>@Model.Name</legend>
+    <div class="col-xs-12 col-sm-6 col-lg-8">
+        <div class="label-primary">
+            @Html.DisplayNameFor(model => model.Name)
+        </div>
+        <h2 class="display-field">
+            @Html.DisplayFor(model => model.Name)
+        </h2>
+        <div>
+            @if (!ViewBag.CurrentUserBooksId.Contains(Model.Id))
+            {
+                @Html.ActionLink("Add to MyBooks", "AddBookToUser", "Home", new { Id = Model.Id }, new { @class = "btn btn-primary", @type = "button" })
+            }            
+        </div>
+        <div class="label-primary">
+            @Html.DisplayNameFor(model => model.Author.FirstName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Author.FirstName)
+        </div>
+        <div class="label-primary">
+            @Html.DisplayNameFor(model => model.Author.LastName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Author.LastName)
+        </div>
+        <div class="label-primary">
+            @Html.DisplayFor(model => model.Author.LocationCoutry)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Author.LocationCoutry)
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+        <table class="table">
+            <tr>
+                <th class="label-primary"> 	Genres of book</th>
+            </tr>
+            @foreach (var item in Model.Genres)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+        <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 table-responsive">
+            <table class="table table-striped">
+                <caption>Users who have recently added this book</caption>
+                <tr>
+                    <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">User </th>
+                    <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">About book</th>
+                    <th class="col-lg-1 col-xs-1 col-sm-1 col-md-1">Grade</th>
+                    <th class="col-lg-7 col-xs-7 col-sm-7 col-md-7">Comment</th>
+                </tr>
+
+                @if (Enumerable.Count(ViewBag.LastThreeBookGrades) == 0)
+                {
+                    <tr>
+                        <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                        <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2"></td>
+                        <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1"></td>
+                        <td class="col-lg-7 col-xs-7 col-sm-7 col-md-7">Book have no grades from any user yet</td>
+                    </tr>
+                }
+                @foreach (var item in ViewBag.LastThreeBookGrades)
+                {
+                    <tr>
+
+                        <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2">
+                            @{ string appreiserName = item.Appreiser.FirstName;
+                                @Html.ActionLink(appreiserName, "Details", "Home", new { Id = item.AppreiserId }, null)
+                            }
+                        </td>
+                        <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
+                            @if (item.IsBookHadRead)
+                            {
+                                <p>Read</p>
+                            }
+                            else
+                            {
+                                <p>Want to read</p>
+                            }
+                        </td>
+                        <td class="col-lg-1 col-xs-1 col-sm-1 col-md-1" id="tableTdCentr">
+                            @if (item.IsBookHadRead)
+                            {
+                                @item.GradeValue;
+                            }
+                        </td>
+                        <td class="col-lg-7 col-xs-7 col-sm-7 col-md-7">
+                            @if (item.IsBookHadRead)
+                            {
+                                @item.Comment;
+                            }
+                        </td>
+                    </tr>
+                                }
+            </table>
+        </div>
+            <ul class="nav navbar-nav row">
+                @if (Enumerable.Count(ViewBag.LastThreeBookGrades) != 0)
+                {
+                    <li>@Html.ActionLink("Show all book grades", "ShowBookGrades", new { id = Model.Id })</li>
+                }
+                @if (ViewBag.ListAdminId.Contains(ViewBag.CurrentUserId))
+                {
+                    <li>
+                        @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+                    </li>
+                    <li>
+                        @Html.ActionLink("Back to Book administration", "Index")
+                    </li>
+                }
+            </ul>
+
+</fieldset>

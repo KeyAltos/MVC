@@ -1,0 +1,406 @@
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\RepositoryAndUoWAndEF\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+\\vmware-host\Shared Folders\MIB On My Mac\Desktop\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Desktop\ProjectArchitectureDemo_1\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject - 0.4 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+E:\Vall\Projects\MyFinalMVCProject - 0.45 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.51 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.64 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.66 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.72 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.74 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.76 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.dll
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\BLL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DependencyResolver.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\Ninject.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.Interfacies.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\AutoMapper.xml
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\ORM.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\bin\Debug\DAL.pdb
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsolePL.csprojResolveAssemblyReference.cache
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.exe
+C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.78 рабочий\ProjectArchitectureDemo_1\ConsolePL\obj\Debug\ConsoleApplication1.pdb

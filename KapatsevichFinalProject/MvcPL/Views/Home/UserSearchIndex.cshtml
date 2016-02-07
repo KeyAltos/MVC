@@ -1,0 +1,22 @@
+﻿
+<div class="paddingTop20">
+    @using (Ajax.BeginForm("UserSearchPartial", new AjaxOptions
+    {
+        UpdateTargetId = "UserSearchResults",
+        LoadingElementId = "loading",
+        LoadingElementDuration = 1000
+    }))
+    {
+        <input type="text" name="firstName" placeholder="Enter user firstname" />
+        <input type="text" name="lastName" placeholder="Enter user lastname" />
+        <input type="text" name="locationCountry" placeholder="Enter country" />
+        <input type="text" name="locationCity" placeholder="Enter city" />
+        <input type="submit" value="Search" />
+    }
+    <div id="loading" style="display:none; color:darkgrey; font-weight:bold;">
+        <p>Searching</p>
+    </div>
+    <hr />
+    <div id="UserSearchResults"></div>
+</div>
+

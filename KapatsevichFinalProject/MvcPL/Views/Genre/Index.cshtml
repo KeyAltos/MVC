@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MvcPL.Models.UIGenre>
+
+<div class="paddingTop10">
+        @Html.ActionLink("Create new genre", "Create", "Genre", null, new { @class = "btn btn-primary", @type = "button" })        
+    </div>
+       
+    <table class="col-lg-4 col-md-6 col-sm-6 col-xs-12 table table-striped">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>Action</th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.ActionLink(item.Name, "Edit", new { Id = item.Id })
+            </td>
+            <td id="tableTdCentr">
+                @Html.ActionLink("Edit", "Edit", "Genre", new { Id = item.Id }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Delete", "Delete", "Genre", new { Id = item.Id }, new { @class = "btn btn-default" })                
+            </td>
+        </tr>
+    }    
+    </table>
+    @Html.ActionLink("Back to MyProfile", "StartPage", "Account")
+

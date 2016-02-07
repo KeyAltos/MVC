@@ -1,0 +1,142 @@
+﻿@using MvcPL.Models
+
+@model UserCreateModel
+
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        @if (Model.IsCreatingNow == true)
+        {
+            <legend>Create your profile</legend>
+        }
+        else
+        {
+            <legend>Update your profile</legend>
+        }
+        
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.FirstName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.LastName)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.BirthDate)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.BirthDate)
+                @Html.ValidationMessageFor(model => model.BirthDate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Description)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Description)
+                @Html.ValidationMessageFor(model => model.Description)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.LocationCoutry)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.LocationCoutry)
+                @Html.ValidationMessageFor(model => model.LocationCoutry)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.LocationCity)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.LocationCity)
+                @Html.ValidationMessageFor(model => model.LocationCity)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Email)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.UserName)
+            </div>
+            <div class="editor-field">               
+                @Html.TextBoxFor(model => model.UserName, new { disabled = "disabled", @readonly = "readonly" })
+                @Html.ValidationMessageFor(model => model.UserName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Password)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.PasswordConfirm)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.PasswordConfirm)
+                @Html.ValidationMessageFor(model => model.PasswordConfirm)
+            </div>
+        </div>
+
+        <div class="form-group displayBlock">
+
+            @if (Model.IsCreatingNow == true)
+            {
+                <input type="submit" value="Create" class="btn btn-default" />
+            }
+            else
+            {
+                <input type="submit" value="Update" class="btn btn-default " />
+            }
+        </div>        
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to MyProfile", "Details", new {Id=Model.Id })
+</div>
+

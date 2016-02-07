@@ -1,0 +1,99 @@
+﻿@using MvcPL.Models
+
+@model GradeCreateModel
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        
+        <fieldset>
+            @if (Model.IsCreatingNow == true)
+            {
+                <legend>Give your grade</legend>
+            }
+            else
+            {
+                <legend>Correct your grade</legend>
+            }
+            @Html.HiddenFor(model => model.BookId)
+            @Html.HiddenFor(model => model.AppreiserId)
+            @Html.HiddenFor(model => model.Id)
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-md-4">
+                <div class="form-group">
+                    <div class="label-primary">
+                        @Html.DisplayNameFor(model => model.Book.Name)
+                    </div>
+                    <div class="editor-label">
+                        @Html.ActionLink(Model.Book.Name, "Details", "Book", new { Id = Model.Book.Id }, null)
+                    </div>
+                </div>
+                <div class="label-primary">
+                    Author full name
+                </div>
+                <div class="editor-label">
+                    @Html.ActionLink(Model.Book.Author.FirstName + " " + Model.Book.Author.LastName, "Details", "Author", new { Id = Model.Book.Author.Id }, null)
+                </div>
+
+                <div class="form-group">
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.IsBookHadRead)
+                    </div>
+                    <div class="editor-field">
+                        @Html.CheckBoxFor(model => model.IsBookHadRead, new { @checked = "checked", @Id= "actionId", onclick = "javascript:checkboxclick();" })
+                    </div>
+                </div>
+
+                <script language="javascript" type="text/javascript">
+
+                function checkboxclick() {
+                    if ($("#actionId").is(':checked')) {
+                        $("#hiddenId").show(500);
+                }
+                else {
+                        $("#hiddenId").hide(500);
+
+                }
+                }
+                </script>
+                <div id="hiddenId">
+                    <div class="form-group">
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.GradeValue)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.GradeValue)
+                            @Html.ValidationMessageFor(model => model.GradeValue)
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="editor-label">
+                            @Html.LabelFor(model => model.Comment)
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Comment)
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group displayBlock">
+
+                    @if (Model.IsCreatingNow == true)
+                {
+                        <input type="submit" value="Add to MyBooks" class="btn btn-default" />
+                    }
+                    else
+                    {
+                        <input type="submit" value="Update" class="btn btn-default " />
+                    }
+                </div>
+            </div>
+        </fieldset>
+
+    }
+
+<div class="myProfileFooterNav">
+        @Html.ActionLink("Back to MyProfile", "Index")
+    </div>
+

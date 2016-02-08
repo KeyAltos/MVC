@@ -28,11 +28,8 @@ namespace BLL.Services
             Mapper.AssertConfigurationIsValid();
         }
         public IEnumerable<BLLUser> GetAllUserEntities()
-        {
-            //using (uow)
-            {               
-                return BllEntityMapper<BLLUser,DalUser>.MapList(userRepository.GetAll().Select(x => x).ToList());
-            }
+        {                         
+            return BllEntityMapper<BLLUser,DalUser>.MapList(userRepository.GetAll().Select(x => x).ToList());            
         }
 
         public void CreateUser(BLLUser user)

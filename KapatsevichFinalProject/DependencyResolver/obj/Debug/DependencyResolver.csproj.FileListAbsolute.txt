@@ -610,3 +610,29 @@ C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\Kapat
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.dll
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DependencyResolver.dll.config
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\BLL.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\BLL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DAL.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DAL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\EntityFramework.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\EntityFramework.SqlServer.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\Ninject.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\ORM.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\AutoMapper.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\BLL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\BLL.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DAL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\DAL.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\ORM.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\EntityFramework.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\EntityFramework.SqlServer.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\Ninject.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\bin\Debug\AutoMapper.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\DependencyResolver\obj\Debug\DependencyResolver.pdb

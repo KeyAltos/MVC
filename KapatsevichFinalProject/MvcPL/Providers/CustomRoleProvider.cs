@@ -24,9 +24,8 @@ namespace MvcPL.Providers
         public override string[] GetRolesForUser(string username)
         {
             var roleName = userService.GetUserRoleByUsername(username);
-            var trimRoleName=roleName.Trim();
-            var role = new string[] { trimRoleName };            
-            return role;
+            var trimRoleName=roleName.Trim();                        
+            return new string[] { trimRoleName };
         }
 
         public override void CreateRole(string roleName)

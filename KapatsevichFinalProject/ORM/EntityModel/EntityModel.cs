@@ -8,7 +8,7 @@ namespace ORM
         public EntityModel()
             : base("name=EntityModel")
         {
-            Debug.WriteLine("Context creating!");
+            
         }
 
         public virtual DbSet<Role> Roles { get; set; }
@@ -75,8 +75,7 @@ namespace ORM
 
         new public void Dispose()
         {
-            base.Dispose();
-            Debug.WriteLine("Context disposing!");
+            base.Dispose();            
         }
     }
 }

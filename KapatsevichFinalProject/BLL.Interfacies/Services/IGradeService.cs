@@ -12,10 +12,8 @@ namespace BLL.Interfacies.Services
         IEnumerable<BLLGrade> GetAllUserGrades(int userId);
         IEnumerable<BLLGrade> GetAllBookGrades(int bookId);
 
-        IEnumerable<int> GetAllUserGradesId(int userId);
-        //IEnumerable<BLLGrade> GetAllUserGrades(int userId);
-        bool CheckGrade(int userId, int bookId);
-
+        IEnumerable<int> GetAllUserGradesId(int userId);        
+        
         BLLGrade GetById(int GradeId);
         void CreateGrade(BLLGrade grade);
         void DeleteGrade(int GradeId);

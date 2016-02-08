@@ -1,7 +1,20 @@
 ﻿@model IEnumerable<MvcPL.Models.UIFriendship>
 
-    <div class="paddingTop10">
-        @Html.ActionLink("My Friendship Requests", "MyFriendshipRequests", "Friendship", null, new { @class = "btn btn-primary", @type = "button" })
+    <div class="paddingTop10">       
+        
+            @if (ViewBag.CurrentUserFriendhipRequestCount>0)
+            {
+                <a href="@Url.Action("MyFriendshipRequests", "Friendship")"
+                   class="btn btn-primary">
+                    My Friendship Requests <span class="badge">@ViewBag.CurrentUserFriendhipRequestCount</span>
+                </a>
+            }
+            else
+            {
+                @Html.ActionLink("My Friendship Requests", "MyFriendshipRequests", "Friendship", null, new { @class = "btn btn-primary", @type = "button" })
+            }
+
+
         @Html.ActionLink("Find friends", "UserSearchIndex", "Home", null, new { @class = "btn btn-primary", @type = "button" })
     </div>
 

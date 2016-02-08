@@ -52,11 +52,11 @@ namespace BLL.Services
             var finalyMessageListDal = new List<DalMessage>();       
             foreach (var item in myMessageFriendsIdList.Distinct())
             {
-                var messageFrom = userFullMessageListDAL.Where(x => x.SenderId == item).FirstOrDefault();
-                var messageFromOrDefaultMessage = messageFrom != null? messageFrom :new DalMessage() { MessageSendingTime=new DateTime(1,1,1,0,0,0)};
+                var messageFrom = userFullMessageListDAL.Where(x => x.SenderId == item).FirstOrDefault();               
+                var messageFromOrDefaultMessage = messageFrom ?? new DalMessage() { MessageSendingTime = new DateTime(1, 1, 1, 0, 0, 0) };
 
-                var messageTo = userFullMessageListDAL.Where(x => x.ReceiverId == item).FirstOrDefault();
-                var messageToOrDefaultMessage = messageTo != null ? messageTo : new DalMessage() { MessageSendingTime = new DateTime(1, 1, 1, 0, 0, 0) };
+                var messageTo = userFullMessageListDAL.Where(x => x.ReceiverId == item).FirstOrDefault();                
+                var messageToOrDefaultMessage = messageTo ?? new DalMessage() { MessageSendingTime = new DateTime(1, 1, 1, 0, 0, 0) };
 
                 if (messageFromOrDefaultMessage.MessageSendingTime> messageToOrDefaultMessage.MessageSendingTime)
                 {

@@ -50,13 +50,7 @@ namespace BLL.Services
             gradeRepository.Update(BllEntityMapper<DalGrade, BLLGrade>.Map(grade));
             uow.Commit();
         }
-
-        public bool CheckGrade(int userId, int bookId)
-        {            
-            if (gradeRepository.GetByPredicate(x => x.AppreiserId == userId && x.BookId == bookId).Count() >= 1)
-                return true;
-            return false;
-        }
+        
 
         public BLLGrade GetById(int gradeId)
         {

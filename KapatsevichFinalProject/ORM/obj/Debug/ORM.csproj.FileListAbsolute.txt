@@ -261,3 +261,18 @@ C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 р�
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ORM\obj\Debug\ORM.csproj.GenerateResource.Cache
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ORM\obj\Debug\ORM.dll
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\ORM\obj\Debug\ORM.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\ORM.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\ORM.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\DAL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\EntityFramework.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\EntityFramework.SqlServer.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\DAL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\EntityFramework.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\bin\Debug\EntityFramework.SqlServer.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.csprojResolveAssemblyReference.cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.Migrations.InitialCreate.resources
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.Migrations.MigrateDB.resources
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.Migrations.MigrateDB1.resources
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.csproj.GenerateResource.Cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\ORM\obj\Debug\ORM.pdb

@@ -245,3 +245,14 @@ C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\Kapat
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.dll
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject 1.00\KapatsevichFinalProject\BLL\obj\Debug\BLL.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\BLL.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\BLL.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\BLL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\DAL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\bin\Debug\AutoMapper.xml
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\obj\Debug\BLL.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL\obj\Debug\BLL.pdb

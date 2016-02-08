@@ -86,3 +86,8 @@ C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 р�
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb
 C:\Users\Vall\Documents\Visual Studio 2015\Projects\MyFinalMVCProject - 0.96 рабочий\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL.Interfacies\bin\Debug\BLL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL.Interfacies\bin\Debug\BLL.Interfacies.pdb
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.dll
+D:\c#\KapatsevichMVCProject\KapatsevichFinalProject\BLL.Interfacies\obj\Debug\BLL.Interfacies.pdb

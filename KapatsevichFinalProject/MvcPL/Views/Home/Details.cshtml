@@ -71,7 +71,7 @@
                             <th class="col-lg-2 col-xs-2 col-sm-2 col-md-2">Action</th>
                         </tr>
 
-                        @if (Model.Grades.Count() == 0)
+                        @if (!Model.Grades.Any())
                         {
                             <tr>
                                 <td class="col-lg-2 col-xs-2 col-sm-2 col-md-2" id="tableTdCentr">
@@ -133,7 +133,7 @@
                 
                 
                 <ul class="nav navbar-nav myProfileFooterNav" >
-                    @if (Model.Grades.Count() != 0)
+                    @if (Model.Grades.Any())
                     {
                         <li>@Html.ActionLink("Show all users grades", "ShowUserGrades", new { id = Model.Id })</li>
                     }                    

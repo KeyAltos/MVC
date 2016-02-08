@@ -15,7 +15,7 @@ namespace MvcPL.Controllers
     public class FriendshipController : Controller
     {
         //
-        // GET: /Friendhip/
+        // GET: /Friendship/
         private readonly IFriendshipService friendshipService;
         private readonly IUserService userService;
 
@@ -31,7 +31,7 @@ namespace MvcPL.Controllers
         {
             var myId = userService.GetIdByUsername(User.Identity.Name);
             var view = Mapper.Map < IEnumerable<BLLFriendship>, List<UIFriendship> > (friendshipService.GetUserFriendshipEntities(myId));
-
+            ViewBag.CurrentUserFriendhipRequestCount = friendshipService.GetUserFriendshipRequests(myId).Count();
             ViewBag.CurrentUserId = myId;            
             return View(view);            
         }

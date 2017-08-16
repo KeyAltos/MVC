@@ -1,27 +1,37 @@
-﻿using AutoMapper;
-using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using BLL.Interfacies.Services;
-using MvcPL.Infrastructura;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace MvcPL.Controllers
+﻿namespace MvcPL.Controllers
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web.Mvc;
+
+    using AutoMapper;
+
+    using BLL.Interface.Entities;
+    using BLL.Interface.Services;
+    using BLL.Interfacies.Services;
+
+    using MvcPL.Infrastructura;
+    using MvcPL.Models;
+
     [Authorize]
     public class BookController : Controller
     {
-        private readonly IBookService bookService;
         private readonly IAuthorService authorService;
-        private readonly IGradeService gradeService;
+
+        private readonly IBookService bookService;
+
         private readonly IGenreService genreService;
+
+        private readonly IGradeService gradeService;
+
         private readonly IUserService userService;
 
-        public BookController(IBookService bookService, IAuthorService authorService, IGradeService gradeService, IGenreService genreService, IUserService userService)
+        public BookController(
+            IBookService bookService,
+            IAuthorService authorService,
+            IGradeService gradeService,
+            IGenreService genreService,
+            IUserService userService)
         {
             this.bookService = bookService;
             this.authorService = authorService;
@@ -30,103 +40,118 @@ namespace MvcPL.Controllers
             this.userService = userService;
         }
 
-        [Authorize(Roles = "Admin")]
-        public ActionResult Index(int page = 1)
+        public ActionResult BookSearchIndex()
         {
-            var listOfBooksFromDB= bookService.GetAllBookEntities().Select(book => Mapper.Map<BLLBook, BookIndexModel>(book));
+            return this.View();
+        }
 
-            int pageSize = 15; 
-            IEnumerable<BookIndexModel> booksPerPages = listOfBooksFromDB.Skip((page - 1) * pageSize).Take(pageSize);
-            PageInfo pageInfo = new PageInfo { PageNumber = page, PageSize = pageSize, TotalItems = listOfBooksFromDB.Count() };
-            ViewBag.CurrentUserBooksId = userService.GetAllUserBooksId(userService.GetIdByUsername(User.Identity.Name));
-            var view = new PanginationViewModel<BookIndexModel> { PageInfo = pageInfo, ListOfItems = booksPerPages };
-            return View(view);   
+        [HttpPost]
+        public ActionResult BookSearchPartial(string title, string authorFirstName, string authorLastName)
+        {
+            this.ViewBag.ListMyBooksId =
+                this.userService.GetAllUserBooksId(this.userService.GetIdByUsername(this.User.Identity.Name));
+
+            var retrievedBooks = this.bookService.SearchBook(title, authorFirstName, authorLastName);
+
+            return this.PartialView(Mapper.Map<IEnumerable<BLLBook>, IEnumerable<BookIndexModel>>(retrievedBooks));
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult Create()
         {
-            var getListOfAuthors = Mapper.Map<List<BLLAuthor>, List<AuthorForBookModel>>(authorService.GetAllAuthorsEntities().ToList());
-            ViewBag.ListOfGenres = Mapper.Map<List<BLLGenre>, List<UIGenre>>(genreService.GetAllGenreEntities().ToList());
+            var getListOfAuthors =
+                Mapper.Map<List<BLLAuthor>, List<AuthorForBookModel>>(
+                    this.authorService.GetAllAuthorsEntities().ToList());
+            this.ViewBag.ListOfGenres =
+                Mapper.Map<List<BLLGenre>, List<UIGenre>>(this.genreService.GetAllGenreEntities().ToList());
             var view = new BookCreateModel() { ListOfAuthors = getListOfAuthors, IsCreatingNow = true };
-            return View(view);
+            return this.View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult Create(BookCreateModel book, int[] selectedGenres)
         {
-           
-            bookService.CreateBook(Mapper.Map<BookCreateModel, BLLBook>(book), selectedGenres);
-            return RedirectToAction("Index");
+            this.bookService.CreateBook(Mapper.Map<BookCreateModel, BLLBook>(book), selectedGenres);
+            return this.RedirectToAction("Index");
         }
 
         [Authorize(Roles = "Admin")]
         public ActionResult Delete(int Id)
         {
-            bookService.DeleteBook(Id);
-            return RedirectToAction("Index");
+            this.bookService.DeleteBook(Id);
+            return this.RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult Details(int Id)
+        {
+            var view = Mapper.Map<BLLBook, UIBook>(this.bookService.GetById(Id));
+            this.ViewBag.CurrentUserId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            this.ViewBag.CurrentUserBooksId = this.userService.GetAllUserBooksId(this.ViewBag.CurrentUserId);
+            this.ViewBag.LastThreeBookGrades = this.gradeService.GetAllBookGrades(Id).ToList();
+            this.ViewBag.ListAdminId = this.userService.GetAllAdminsId();
+            return this.View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult Edit(int Id)
         {
-            var view = Mapper.Map<BLLBook, BookCreateModel>(bookService.GetById(Id));
-            view.ListOfAuthors = Mapper.Map<List<BLLAuthor>, List<AuthorForBookModel>>(authorService.GetAllAuthorsEntities().ToList());
-            ViewBag.ListOfGenres = Mapper.Map<List<BLLGenre>, List<UIGenre>>(genreService.GetAllGenreEntities().ToList());
+            var view = Mapper.Map<BLLBook, BookCreateModel>(this.bookService.GetById(Id));
+            view.ListOfAuthors =
+                Mapper.Map<List<BLLAuthor>, List<AuthorForBookModel>>(
+                    this.authorService.GetAllAuthorsEntities().ToList());
+            this.ViewBag.ListOfGenres =
+                Mapper.Map<List<BLLGenre>, List<UIGenre>>(this.genreService.GetAllGenreEntities().ToList());
             view.IsCreatingNow = false;
-            return View("Create", view);
+            return this.View("Create", view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult Edit(BookCreateModel book, int[] selectedGenres)
-        {            
-            bookService.UpdateBook(Mapper.Map<BookCreateModel, BLLBook>(book),selectedGenres);
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]
-        public ActionResult Details(int Id)
         {
-            var view = Mapper.Map<BLLBook, UIBook>(bookService.GetById(Id));
-            ViewBag.CurrentUserId = userService.GetIdByUsername(User.Identity.Name);
-            ViewBag.CurrentUserBooksId = userService.GetAllUserBooksId(ViewBag.CurrentUserId);
-            ViewBag.LastThreeBookGrades = gradeService.GetAllBookGrades(Id).ToList();
-            ViewBag.ListAdminId = userService.GetAllAdminsId();
-            return View(view);
+            this.bookService.UpdateBook(Mapper.Map<BookCreateModel, BLLBook>(book), selectedGenres);
+            return this.RedirectToAction("Index");
         }
 
-        [HttpPost]
-        public ActionResult BookSearchPartial(string title,string authorFirstName, string authorLastName)
+        [Authorize(Roles = "Admin")]
+        public ActionResult Index(int page = 1)
         {
-            ViewBag.ListMyBooksId = userService.GetAllUserBooksId(userService.GetIdByUsername(User.Identity.Name));
+            var listOfBooksFromDB =
+                this.bookService.GetAllBookEntities().Select(book => Mapper.Map<BLLBook, BookIndexModel>(book));
 
-            var retrievedBooks = bookService.SearchBook(title,authorFirstName,authorLastName);
-            
-            return PartialView(Mapper.Map < IEnumerable<BLLBook>, IEnumerable<BookIndexModel>> (retrievedBooks));
-        }
-
-        public ActionResult BookSearchIndex()
-        {            
-            return View();
+            int pageSize = 15;
+            IEnumerable<BookIndexModel> booksPerPages = listOfBooksFromDB.Skip((page - 1) * pageSize).Take(pageSize);
+            PageInfo pageInfo = new PageInfo
+                                    {
+                                        PageNumber = page,
+                                        PageSize = pageSize,
+                                        TotalItems = listOfBooksFromDB.Count()
+                                    };
+            this.ViewBag.CurrentUserBooksId =
+                this.userService.GetAllUserBooksId(this.userService.GetIdByUsername(this.User.Identity.Name));
+            var view = new PanginationViewModel<BookIndexModel> { PageInfo = pageInfo, ListOfItems = booksPerPages };
+            return this.View(view);
         }
 
         public ActionResult ShowBookGrades(int Id)
-        {            
-            ViewBag.CurrentUserId = userService.GetIdByUsername(User.Identity.Name);            
-            return View(Mapper.Map<IEnumerable<BLLGrade>, IEnumerable<UIGrade>>(gradeService.GetAllBookGrades(Id)));
+        {
+            this.ViewBag.CurrentUserId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            return
+                this.View(
+                    Mapper.Map<IEnumerable<BLLGrade>, IEnumerable<UIGrade>>(this.gradeService.GetAllBookGrades(Id)));
         }
 
         protected override void Dispose(bool disposing)
         {
-            authorService.Dispose();
-            bookService.Dispose();
-            userService.Dispose();
-            gradeService.Dispose();
-            genreService.Dispose();            
+            this.authorService.Dispose();
+            this.bookService.Dispose();
+            this.userService.Dispose();
+            this.gradeService.Dispose();
+            this.genreService.Dispose();
             base.Dispose(disposing);
         }
     }

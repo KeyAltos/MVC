@@ -1,77 +1,71 @@
-﻿using AutoMapper;
-using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using BLL.Interfacies.Services;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace MvcPL.Controllers
+﻿namespace MvcPL.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Web.Mvc;
+
+    using AutoMapper;
+
+    using BLL.Interface.Entities;
+    using BLL.Interface.Services;
+    using BLL.Interfacies.Services;
+
+    using MvcPL.Models;
+
     [Authorize]
     public class MessageController : Controller
     {
         private readonly IMessageService messageService;
-        private readonly IUserService userService;
 
+        private readonly IUserService userService;
 
         public MessageController(IMessageService messageService, IUserService userService)
         {
             this.messageService = messageService;
             this.userService = userService;
-
-        }
-
-        //
-        // GET: /Message/
-
-        public ActionResult Index()
-        {
-            var myId = userService.GetIdByUsername(User.Identity.Name);
-            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserLastMessages(myId));
-            ViewBag.CurrentUserId = myId;
-
-            return View(view);
-        }
-
-        [Authorize(Roles = "Admin")]
-        public ActionResult ShowUserMessages(int Id)
-        {            
-            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserLastMessages(Id));
-            ViewBag.CurrentUserId = userService.GetIdByUsername(User.Identity.Name); ;
-
-            return View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult AdminDetails(int Id)
         {
-            var message=messageService.GetByIdMessage(Id);       
-            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserToUserMessages(message.SenderId, message.ReceiverId));            
-            return View(view);
+            var message = this.messageService.GetByIdMessage(Id);
+            var view =
+                Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(
+                    this.messageService.GetUserToUserMessages(message.SenderId, message.ReceiverId));
+            return this.View(view);
         }
-        
 
         [HttpGet]
-        public ActionResult SendMessage(int Id)
+        public ActionResult CorrectMessage(int Id)
         {
-            
-            return View(new UIMessage());
+            return this.View(Mapper.Map<BLLMessage, UIMessage>(this.messageService.GetByIdMessage(Id)));
         }
 
+        [HttpPost]
+        public ActionResult CorrectMessage(UIMessage message)
+        {
+            this.messageService.CorrectMessage(Mapper.Map<UIMessage, BLLMessage>(message));
+            return this.RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult DeleteMessage(int Id)
+        {
+            this.messageService.DeleteMessage(Id);
+            return this.RedirectToAction("Index");
+        }
 
         [HttpGet]
         public ActionResult Details(int Id)
         {
-            var myId = userService.GetIdByUsername(User.Identity.Name);
-            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(messageService.GetUserToUserMessages(myId, Id));
-            ViewBag.CurrentUserId = myId;
-            ViewBag.OtherUserId = Id;
-            return View(view);
+            var myId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            var view =
+                Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(
+                    this.messageService.GetUserToUserMessages(myId, Id));
+            this.ViewBag.CurrentUserId = myId;
+            this.ViewBag.OtherUserId = Id;
+            return this.View(view);
         }
 
         [HttpPost]
@@ -79,37 +73,42 @@ namespace MvcPL.Controllers
         {
             message.Id = 0;
             message.MessageSendingTime = DateTime.Now;
-            messageService.SendMessage(Mapper.Map<UIMessage, BLLMessage>(message));
-            return RedirectToAction("Index");
+            this.messageService.SendMessage(Mapper.Map<UIMessage, BLLMessage>(message));
+            return this.RedirectToAction("Index");
+        }
+
+        // GET: /Message/
+        public ActionResult Index()
+        {
+            var myId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            var view =
+                Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(this.messageService.GetUserLastMessages(myId));
+            this.ViewBag.CurrentUserId = myId;
+
+            return this.View(view);
         }
 
         [HttpGet]
-        public ActionResult CorrectMessage(int Id)
+        public ActionResult SendMessage(int Id)
         {
-
-            return View(Mapper.Map<BLLMessage, UIMessage>(messageService.GetByIdMessage(Id)));
+            return this.View(new UIMessage());
         }
 
-        [HttpPost]
-        public ActionResult CorrectMessage(UIMessage message)
+        [Authorize(Roles = "Admin")]
+        public ActionResult ShowUserMessages(int Id)
         {
-            messageService.CorrectMessage(Mapper.Map<UIMessage, BLLMessage>(message));
-            return RedirectToAction("Index");
-        }
+            var view = Mapper.Map<IEnumerable<BLLMessage>, List<UIMessage>>(this.messageService.GetUserLastMessages(Id));
+            this.ViewBag.CurrentUserId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            
 
-        [HttpGet]
-        public ActionResult DeleteMessage(int Id)
-        {
-            messageService.DeleteMessage(Id);
-            return RedirectToAction("Index");
+            return this.View(view);
         }
 
         protected override void Dispose(bool disposing)
         {
-            messageService.Dispose();            
-            userService.Dispose();            
+            this.messageService.Dispose();
+            this.userService.Dispose();
             base.Dispose(disposing);
         }
-
     }
 }

@@ -1,22 +1,23 @@
-﻿using AutoMapper;
-using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace MvcPL.Controllers
+﻿namespace MvcPL.Controllers
 {
+    using System.Linq;
+    using System.Web.Mvc;
+
+    using AutoMapper;
+
+    using BLL.Interface.Entities;
+    using BLL.Interface.Services;
+
+    using MvcPL.Models;
+
     [Authorize]
     public class AuthorController : Controller
     {
-        //
         // GET: /Author/
         private readonly IAuthorService authorService;
+
         private readonly IBookService bookService;
+
         private readonly IUserService userService;
 
         public AuthorController(IBookService bookService, IAuthorService authorService, IUserService userService)
@@ -27,84 +28,87 @@ namespace MvcPL.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        public ActionResult Index()
-        {
-            return View(authorService.GetAllAuthorsEntities()
-                .Select(author => Mapper.Map<BLLAuthor, AuthorIndexModel>(author)));
-        }
-
-        [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult Create()
         {
             var view = new AuthorCreateModel() { IsCreatingNow = true };
-            return View(view);
+            return this.View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult Create(AuthorCreateModel author)
         {
-            if (ModelState.IsValid)
+            if (this.ModelState.IsValid)
             {
-                authorService.CreateAuthor(Mapper.Map<AuthorCreateModel, BLLAuthor>(author));
-                return RedirectToAction("Index");
+                this.authorService.CreateAuthor(Mapper.Map<AuthorCreateModel, BLLAuthor>(author));
+                return this.RedirectToAction("Index");
             }
             else
             {
-                ModelState.AddModelError("", "Complete all fields");
+                this.ModelState.AddModelError(string.Empty, "Complete all fields");
             }
-            return View(author);
+
+            return this.View(author);
         }
 
         [Authorize(Roles = "Admin")]
         public ActionResult Delete(int Id)
         {
-            authorService.DeleteAuthor(Id);
-            return RedirectToAction("Index");
+            this.authorService.DeleteAuthor(Id);
+            return this.RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public ActionResult Details(int Id)
+        {
+            this.ViewBag.ListAdminId = this.userService.GetAllAdminsId();
+            this.ViewBag.CurrentUserId = this.userService.GetIdByUsername(this.User.Identity.Name);
+            var view = Mapper.Map<BLLAuthor, UIAuthor>(this.authorService.GetById(Id));
+            return this.View(view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public ActionResult Edit(int Id)
         {
-            var view = Mapper.Map<BLLAuthor, AuthorCreateModel>(authorService.GetById(Id));            
+            var view = Mapper.Map<BLLAuthor, AuthorCreateModel>(this.authorService.GetById(Id));
             view.IsCreatingNow = false;
-            return View("Create", view);
+            return this.View("Create", view);
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult Edit(AuthorCreateModel author)
         {
-            if (ModelState.IsValid)
+            if (this.ModelState.IsValid)
             {
-                authorService.UpdateAuthor(Mapper.Map<AuthorCreateModel, BLLAuthor>(author));
-            return RedirectToAction("Index");
+                this.authorService.UpdateAuthor(Mapper.Map<AuthorCreateModel, BLLAuthor>(author));
+                return this.RedirectToAction("Index");
             }
             else
             {
-                ModelState.AddModelError("", "Complete all fields");
+                this.ModelState.AddModelError(string.Empty, "Complete all fields");
             }
-            return View(author);
+
+            return this.View(author);
         }
 
-        [HttpGet]
-        public ActionResult Details(int Id)
+        [Authorize(Roles = "Admin")]
+        public ActionResult Index()
         {
-            ViewBag.ListAdminId = userService.GetAllAdminsId();
-            ViewBag.CurrentUserId = userService.GetIdByUsername(User.Identity.Name);
-            var view = Mapper.Map<BLLAuthor, UIAuthor>(authorService.GetById(Id));
-            return View(view);
+            return
+                this.View(
+                    this.authorService.GetAllAuthorsEntities()
+                        .Select(author => Mapper.Map<BLLAuthor, AuthorIndexModel>(author)));
         }
 
         protected override void Dispose(bool disposing)
         {
-            authorService.Dispose();
-            bookService.Dispose();
-            userService.Dispose();
+            this.authorService.Dispose();
+            this.bookService.Dispose();
+            this.userService.Dispose();
             base.Dispose(disposing);
         }
-
     }
 }

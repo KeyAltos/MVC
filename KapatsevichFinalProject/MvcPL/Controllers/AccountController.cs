@@ -1,19 +1,17 @@
-﻿using AutoMapper;
-using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using MvcPL.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Providers.Entities;
-using System.Web.Security;
-
-namespace MvcPL.Controllers
+﻿namespace MvcPL.Controllers
 {
+    using System.Web.Mvc;
+    using System.Web.Security;
+
+    using AutoMapper;
+
+    using BLL.Interface.Entities;
+    using BLL.Interface.Services;
+
+    using MvcPL.Models;
+
     public class AccountController : Controller
     {
-        //
         // GET: /Account/
         private readonly IUserService userService;
 
@@ -23,79 +21,85 @@ namespace MvcPL.Controllers
         }
 
         public ActionResult Login()
-        {            
-            return View();
+        {
+            return this.View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Login(UserLoginModel model)
         {
-            if (ModelState.IsValid)
+            if (this.ModelState.IsValid)
             {
-                if (userService.CheckUserNameAndPassword(model.UserName, model.Password))
-                {                                      
+                if (this.userService.CheckUserNameAndPassword(model.UserName, model.Password))
+                {
                     FormsAuthentication.SetAuthCookie(model.UserName, true);
-                    var myId = userService.GetIdByUsername(model.UserName);
-                    return RedirectToAction("Details", "Home", new { Id = myId });
+                    var myId = this.userService.GetIdByUsername(model.UserName);
+                    return this.RedirectToAction("Details", "Home", new { Id = myId });
                 }
                 else
                 {
-                    ModelState.AddModelError("", "There is not user with such username and password");
+                    this.ModelState.AddModelError(string.Empty, "There is not user with such username and password");
                 }
             }
-            return View(model);
+
+            return this.View(model);
         }
 
         public ActionResult Logoff()
-        {            
+        {
             FormsAuthentication.SignOut();
-            return RedirectToAction("StartPage");
+            return this.RedirectToAction("StartPage");
         }
 
         public ActionResult Register()
         {
-            return View();
+            return this.View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Register(UserRegisterModel model)
         {
-            if (ModelState.IsValid)
+            if (this.ModelState.IsValid)
             {
-                
-                if (!userService.CheckUserName(model.UserName))
+                if (!this.userService.CheckUserName(model.UserName))
                 {
                     model.RoleId = 2;
-                    userService.CreateUser(Mapper.Map<UserRegisterModel, BLLUser>(model));
+                    this.userService.CreateUser(Mapper.Map<UserRegisterModel, BLLUser>(model));
                     FormsAuthentication.SetAuthCookie(model.UserName, true);
-                    
-                    return RedirectToAction("Edit", "Home", new { Id = userService.GetIdByUsername(model.UserName) });                                        
+
+                    return this.RedirectToAction(
+                        "Edit",
+                        "Home",
+                        new { Id = this.userService.GetIdByUsername(model.UserName) });
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Пользователь с таким логином уже существует");
+                    this.ModelState.AddModelError(string.Empty, "Пользователь с таким логином уже существует");
                 }
             }
-            return View(model);
+
+            return this.View(model);
         }
 
         public ActionResult StartPage()
         {
-            
-            if (User.Identity.IsAuthenticated)
-            {                
-                return RedirectToAction("Details", "Home", new { Id = userService.GetIdByUsername(User.Identity.Name) });
+            if (this.User.Identity.IsAuthenticated)
+            {
+                return this.RedirectToAction(
+                    "Details",
+                    "Home",
+                    new { Id = this.userService.GetIdByUsername(this.User.Identity.Name) });
             }
-            return View();
+
+            return this.View();
         }
 
         protected override void Dispose(bool disposing)
-        {            
-            userService.Dispose();            
+        {
+            this.userService.Dispose();
             base.Dispose(disposing);
         }
-
     }
 }

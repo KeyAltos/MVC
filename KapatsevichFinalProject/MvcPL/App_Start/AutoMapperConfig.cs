@@ -1,13 +1,14 @@
-﻿using AutoMapper;
-using BLL.Interface.Entities;
-using MvcPL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace MvcPL.App_Start
+﻿namespace MvcPL
 {
+    using System;
+    using System.Linq;
+
+    using AutoMapper;
+
+    using BLL.Interfacies.Entities;
+
+    using MvcPL.Models;
+
     public class AutoMapperConfig
     {
         public static void RegisterMappings()

@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace BLL.Interface.Entities
+﻿namespace BLL.Interfacies.Entities
 {
+    using System.Collections.Generic;
+
     public class BLLRole
     {
         public int Id { get; set; }

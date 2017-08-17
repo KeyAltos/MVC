@@ -1,4 +1,4 @@
-﻿namespace BLL.Interface.Entities
+﻿namespace BLL.Interfacies.Entities
 {
     public class BLLFriendship
     {

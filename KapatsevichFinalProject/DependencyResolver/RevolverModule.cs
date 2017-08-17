@@ -1,30 +1,33 @@
-﻿using System.Data.Entity;
-using BLL.Interface;
-using BLL.Interface.Services;
-using BLL.Services;
-using DAL.Concrete;
-using DAL.Interface.Repository;
-using Ninject.Modules;
-using ORM;
-using BLL.Interfacies.Services;
-
-namespace DependencyResolver
+﻿namespace DependencyResolver
 {
+    using System.Data.Entity;
+
+    using BLL.Interfacies.Services;
+    using BLL.Services;
+
+    using DAL.Concrete;
+    using DAL.Interfacies.Repository;
+
+    using Ninject.Modules;
+
+    using ORM;
+    using ORM.EntityModel;
+
     public class RevolverModule : NinjectModule
     {
         public override void Load()
         {
-            Bind<DbContext>().To<EntityModel>();
-            Bind<IUserRepository>().To<UserRepository>();
-            Bind<IUnitOfWork>().To<UnitOfWork>();
-            Bind<IUserService>().To<UserService>();
-            Bind<IRoleService>().To<RoleService>();
-            Bind<IBookService>().To<BookService>();
-            Bind<IAuthorService>().To<AuthorService>();
-            Bind<IGradeService>().To<GradeService>();
-            Bind<IGenreService>().To<GenreService>();
-            Bind<IFriendshipService>().To<FriendshipService>();
-            Bind<IMessageService>().To<MessageService>();
+            this.Bind<DbContext>().To<EntityModel>();
+            this.Bind<IUserRepository>().To<UserRepository>();
+            this.Bind<IUnitOfWork>().To<UnitOfWork>();
+            this.Bind<IUserService>().To<UserService>();
+            this.Bind<IRoleService>().To<RoleService>();
+            this.Bind<IBookService>().To<BookService>();
+            this.Bind<IAuthorService>().To<AuthorService>();
+            this.Bind<IGradeService>().To<GradeService>();
+            this.Bind<IGenreService>().To<GenreService>();
+            this.Bind<IFriendshipService>().To<FriendshipService>();
+            this.Bind<IMessageService>().To<MessageService>();
         }
     }
 }

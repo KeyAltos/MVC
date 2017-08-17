@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using BLL.Interface.Entities;
-using BLL.Interface.Services;
+
 using BLL.Mappers;
-using DAL.Interface.Repository;
+
 using AutoMapper;
-using DAL.Interface.DTO;
 
 namespace BLL.Services
 {
+    using BLL.Interfacies.Entities;
+    using BLL.Interfacies.Services;
+
+    using DAL.Interfacies.DTO;
+    using DAL.Interfacies.Repository;
+
     public class UserService : IUserService
     {
         private IUnitOfWork uow;

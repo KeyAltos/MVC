@@ -60,7 +60,7 @@
                             @friend.LocationCity
                         </td>
                         <td id="tableTdCentr">
-                            @Html.DisplayFor(m => friend.BirthDate, "ShortDateTime")
+                            @Html.DisplayFor(m => friend.BirthDate)
                         </td>
                         <td>
                             @Html.ActionLink("Delete from MyFriends", "Delete","Friendship", new { Id = item.Id }, new { @class = "btn btn-default" })                            

@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
-using BLL.Interface.Entities;
-
-namespace BLL.Interface.Services
+﻿namespace BLL.Interfacies.Services
 {
+    using System.Collections.Generic;
+
+    using BLL.Interfacies.Entities;
+
     public interface IBookService
     {
         IEnumerable<BLLBook> GetAllBookEntities();

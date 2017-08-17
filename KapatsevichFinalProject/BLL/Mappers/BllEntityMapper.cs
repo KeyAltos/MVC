@@ -1,11 +1,14 @@
 ﻿using AutoMapper;
-using BLL.Interface.Entities;
-using DAL.Interface.DTO;
+
 using System;
 using System.Collections.Generic;
 
 namespace BLL.Mappers
 {
+    using BLL.Interfacies.Entities;
+
+    using DAL.Interfacies.DTO;
+
     public static class BllEntityMapper<TypeTo,TypeFrom> 
         where TypeTo:class
         where TypeFrom: class

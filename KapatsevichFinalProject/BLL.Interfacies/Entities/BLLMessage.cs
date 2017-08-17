@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace BLL.Interface.Entities
+﻿namespace BLL.Interfacies.Entities
 {
+    using System;
+
     public class BLLMessage
     {
         public int Id { get; set; }

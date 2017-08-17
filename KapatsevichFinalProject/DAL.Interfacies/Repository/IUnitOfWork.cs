@@ -1,20 +1,26 @@
-﻿using DAL.Interface.DTO;
-using DAL.Interfacies.Repository;
-using System;
-
-namespace DAL.Interface.Repository
+﻿namespace DAL.Interfacies.Repository
 {
+    using System;
+
+    using DAL.Interfacies.DTO;
+
     public interface IUnitOfWork : IDisposable
     {
-        IUserRepository UserRepository { get; }
+        IRepository<DalAuthor> AuthorRepository { get; }
+
+        IBookRepository BookRepository { get; }
+
+        IRepository<DalFriendship> FriendshipRepository { get; }
+
+        IRepository<DalGenre> GenreRepository { get; }
+
+        IRepository<DalGrade> GradeRepository { get; }
+
+        IRepository<DalMessage> MessageRepository { get; }
+
         IRepository<DalRole> RoleRepository { get; }
 
-        IRepository<DalAuthor> AuthorRepository { get; }        
-        IBookRepository BookRepository { get; }
-        IRepository<DalFriendship> FriendshipRepository { get; }
-        IRepository<DalGenre> GenreRepository { get; }
-        IRepository<DalGrade> GradeRepository { get; }
-        IRepository<DalMessage> MessageRepository { get; }
+        IUserRepository UserRepository { get; }
 
         void Commit();
     }

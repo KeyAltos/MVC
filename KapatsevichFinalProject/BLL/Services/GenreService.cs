@@ -1,8 +1,6 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interfacies.Services;
+﻿using BLL.Interfacies.Services;
 using BLL.Mappers;
-using DAL.Interface.DTO;
-using DAL.Interface.Repository;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
+    using BLL.Interfacies.Entities;
+
+    using DAL.Interfacies.DTO;
+    using DAL.Interfacies.Repository;
+
     public class GenreService : IGenreService
     {
         private readonly IUnitOfWork uow;

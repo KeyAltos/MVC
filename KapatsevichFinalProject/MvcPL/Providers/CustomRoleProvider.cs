@@ -1,5 +1,4 @@
-﻿using BLL.Interface.Services;
-using DependencyResolver;
+﻿using DependencyResolver;
 using Ninject;
 using System;
 using System.Collections.Generic;
@@ -9,6 +8,8 @@ using System.Web.Security;
 
 namespace MvcPL.Providers
 {
+    using BLL.Interfacies.Services;
+
     public class CustomRoleProvider : RoleProvider
     {
         private readonly IUserService userService;              

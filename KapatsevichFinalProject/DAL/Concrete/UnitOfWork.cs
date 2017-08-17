@@ -1,59 +1,46 @@
-﻿using System;
-using System.Data.Entity;
-using System.Diagnostics;
-using DAL.Interface.DTO;
-using DAL.Interface.Repository;
-using ORM;
-using System.Data.Entity.Validation;
-using DAL.Interfacies.Repository;
-
-namespace DAL.Concrete
+﻿namespace DAL.Concrete
 {
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Validation;
+    using System.Diagnostics;
+
+    using DAL.Interfacies.DTO;
+    using DAL.Interfacies.Repository;
+
+    using ORM;
+    using ORM.Tables;
+
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        public DbContext Context { get; private set; }
+        private GenericItemConcreteRepository<Author, DalAuthor> authorRepository;
 
-        private IUserRepository                                             userRepository;
-        private GenericItemConcreteRepository<Role, DalRole>                roleRepository;
-        private GenericItemConcreteRepository<Author, DalAuthor>            authorRepository;        
-        private IBookRepository                                             bookRepository;
-        private GenericItemConcreteRepository<Genre, DalGenre>              genreRepository;
-        private GenericItemConcreteRepository<Grade, DalGrade>              gradeRepository;
-        private GenericItemConcreteRepository<Message, DalMessage>          messageRepository;
-        private GenericItemConcreteRepository<Friendship, DalFriendship>    friendshipRepository;
+        private IBookRepository bookRepository;
+
+        private GenericItemConcreteRepository<Friendship, DalFriendship> friendshipRepository;
+
+        private GenericItemConcreteRepository<Genre, DalGenre> genreRepository;
+
+        private GenericItemConcreteRepository<Grade, DalGrade> gradeRepository;
+
+        private GenericItemConcreteRepository<Message, DalMessage> messageRepository;
+
+        private GenericItemConcreteRepository<Role, DalRole> roleRepository;
+
+        private IUserRepository userRepository;
 
         public UnitOfWork(DbContext context)
         {
-            Context = context;
-        }
-
-        public IUserRepository UserRepository
-        {
-            get
-            {
-                if (userRepository == null)
-                    userRepository = new UserRepository(Context);
-                return userRepository;
-            }
-        }
-
-        public IRepository<DalRole> RoleRepository
-        {
-            get
-            {
-                if (roleRepository == null)
-                    roleRepository = new GenericItemConcreteRepository<Role, DalRole>(Context);
-                return roleRepository;
-            }
+            this.Context = context;
         }
 
         public IRepository<DalAuthor> AuthorRepository
         {
             get
             {
-                if (authorRepository == null)
-                    authorRepository = new GenericItemConcreteRepository<Author, DalAuthor>(Context);
-                return authorRepository;
+                if (this.authorRepository == null)
+                    this.authorRepository = new GenericItemConcreteRepository<Author, DalAuthor>(this.Context);
+                return this.authorRepository;
             }
         }
 
@@ -61,19 +48,21 @@ namespace DAL.Concrete
         {
             get
             {
-                if (bookRepository == null)                    
-                    bookRepository = new BookRepository(Context);
-                return bookRepository;
+                if (this.bookRepository == null)
+                    this.bookRepository = new BookRepository(this.Context);
+                return this.bookRepository;
             }
         }
+
+        public DbContext Context { get; private set; }
 
         public IRepository<DalFriendship> FriendshipRepository
         {
             get
             {
-                if (friendshipRepository == null)                    
-                    friendshipRepository = new FriendshipRepository(Context);
-                return friendshipRepository;
+                if (this.friendshipRepository == null)
+                    this.friendshipRepository = new FriendshipRepository(this.Context);
+                return this.friendshipRepository;
             }
         }
 
@@ -81,9 +70,9 @@ namespace DAL.Concrete
         {
             get
             {
-                if (genreRepository == null)
-                    genreRepository = new GenericItemConcreteRepository<Genre, DalGenre>(Context);
-                return genreRepository;
+                if (this.genreRepository == null)
+                    this.genreRepository = new GenericItemConcreteRepository<Genre, DalGenre>(this.Context);
+                return this.genreRepository;
             }
         }
 
@@ -91,9 +80,9 @@ namespace DAL.Concrete
         {
             get
             {
-                if (gradeRepository == null)
-                    gradeRepository = new GradeRepository(Context);                    
-                return gradeRepository;
+                if (this.gradeRepository == null)
+                    this.gradeRepository = new GradeRepository(this.Context);
+                return this.gradeRepository;
             }
         }
 
@@ -101,18 +90,39 @@ namespace DAL.Concrete
         {
             get
             {
-                if (messageRepository == null)                    
-                    messageRepository = new MessageRepository(Context); 
-                return messageRepository;
+                if (this.messageRepository == null)
+                    this.messageRepository = new MessageRepository(this.Context);
+                return this.messageRepository;
             }
-        }        
+        }
+
+        public IRepository<DalRole> RoleRepository
+        {
+            get
+            {
+                if (this.roleRepository == null)
+                    this.roleRepository = new GenericItemConcreteRepository<Role, DalRole>(this.Context);
+                return this.roleRepository;
+            }
+        }
+
+        public IUserRepository UserRepository
+        {
+            get
+            {
+                if (this.userRepository == null)
+                    this.userRepository = new UserRepository(this.Context);
+                return this.userRepository;
+            }
+        }
 
         public void Commit()
         {
-            if (Context != null)
+            if (this.Context != null)
             {
-                try {
-                    Context.SaveChanges();
+                try
+                {
+                    this.Context.SaveChanges();
                 }
                 catch (DbEntityValidationException dbEx)
                 {
@@ -120,9 +130,10 @@ namespace DAL.Concrete
                     {
                         foreach (var validationError in validationErrors.ValidationErrors)
                         {
-                            Trace.TraceInformation("Property: {0} Error: {1}",
-                                                    validationError.PropertyName,
-                                                    validationError.ErrorMessage);
+                            Trace.TraceInformation(
+                                "Property: {0} Error: {1}",
+                                validationError.PropertyName,
+                                validationError.ErrorMessage);
                         }
                     }
                 }
@@ -131,16 +142,17 @@ namespace DAL.Concrete
 
         public void Dispose()
         {
-            Dispose(true);           
+            this.Dispose(true);
             GC.SuppressFinalize(this);
         }
 
         private void Dispose(bool disposing)
         {
-            if (!disposing) return;
-            if (Context != null)
+            if (!disposing)
+                return;
+            if (this.Context != null)
             {
-                Context.Dispose();
+                this.Context.Dispose();
             }
         }
     }

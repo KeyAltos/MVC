@@ -1,8 +1,5 @@
-﻿using BLL.Interface.Entities;
-using BLL.Interface.Services;
-using BLL.Mappers;
-using DAL.Interface.DTO;
-using DAL.Interface.Repository;
+﻿using BLL.Mappers;
+
 using DAL.Interfacies.Repository;
 using System;
 using System.Collections.Generic;
@@ -12,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
+    using BLL.Interfacies.Entities;
+    using BLL.Interfacies.Services;
+
+    using DAL.Interfacies.DTO;
+
     public class BookService: IBookService
     {
         private readonly IUnitOfWork uow;

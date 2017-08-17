@@ -1,23 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Diagnostics;
-using System.Linq;
-using DAL.Interface.DTO;
-using DAL.Interface.Repository;
-using ORM;
-using AutoMapper;
-using System.Linq.Expressions;
-
-namespace DAL.Concrete
+﻿namespace DAL.Concrete
 {
+    using System.Data.Entity;
+    using System.Linq;
+
+    using AutoMapper;
+
+    using DAL.Interfacies.DTO;
+    using DAL.Interfacies.Repository;
+
+    using ORM;
+    using ORM.Tables;
+
     public class UserRepository : GenericItemConcreteRepository<User, DalUser>, IUserRepository
     {
-        public UserRepository(DbContext uow) : base(uow) { }
+        public UserRepository(DbContext uow)
+            : base(uow)
+        {
+        }
 
         public override DalUser GetById(int key)
-        {            
-            return Mapper.Map<User, DalUser>(dbSet.Include(u => u.Grades.Select(X => X.Book).Select(y => y.Author)).FirstOrDefault(item => item.Id == key));
+        {
+            return
+                Mapper.Map<User, DalUser>(
+                    this.dbSet.Include(u => u.Grades.Select(X => X.Book).Select(y => y.Author))
+                        .FirstOrDefault(item => item.Id == key));
         }
     }
 }

@@ -1,16 +1,20 @@
 ﻿using BLL.Interfacies.Services;
-using DAL.Interface.DTO;
-using DAL.Interface.Repository;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BLL.Interface.Entities;
+
 using BLL.Mappers;
 
 namespace BLL.Services
 {
+    using BLL.Interfacies.Entities;
+
+    using DAL.Interfacies.DTO;
+    using DAL.Interfacies.Repository;
+
     public class MessageService: IMessageService
     {
         private readonly IUnitOfWork uow;

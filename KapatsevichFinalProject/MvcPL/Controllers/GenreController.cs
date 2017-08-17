@@ -5,7 +5,7 @@
 
     using AutoMapper;
 
-    using BLL.Interface.Entities;
+    using BLL.Interfacies.Entities;
     using BLL.Interfacies.Services;
 
     using MvcPL.Models;
